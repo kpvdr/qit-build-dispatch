@@ -7,6 +7,9 @@ DEFAULT_CONFIG_PATH="${CMAKE_INSTALL_PREFIX}/etc/qpid-dispatch"
 cd ${BUILD_DIR}
 make install
 
+# Make a landing place for the log files
+mkdir -p ${CMAKE_INSTALL_PREFIX}/var/log
+
 # Config files
 # We need 3:
 # One for standalone node

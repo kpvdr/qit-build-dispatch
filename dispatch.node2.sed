@@ -36,6 +36,6 @@ $a\
 log {\
     module: DEFAULT\
     enable: info+\
-    output: /var/lib/jenkins/workspace/qdrouterd.node2.log\
+    output: /var/lib/jenkins/workspace/install/var/log/qdrouterd.node2.log\
 }\
 
