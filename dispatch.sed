@@ -13,7 +13,7 @@ listener {\
 $a\
 log {\
     module: DEFAULT\
-    enable: info+\
+    enable: trace+\
     output: /var/lib/jenkins/workspace/install/var/log/qdrouterd.log\
 }\
 
